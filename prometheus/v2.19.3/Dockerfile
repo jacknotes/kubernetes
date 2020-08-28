@@ -13,7 +13,9 @@ RUN wget https://github.com/prometheus/prometheus/releases/download/v2.19.3/prom
 	&& wget https://github.com/prometheus/mysqld_exporter/releases/download/v0.12.1/mysqld_exporter-0.12.1.linux-amd64.tar.gz \
 	&& wget https://github.com/google/cadvisor/releases/download/v0.36.0/cadvisor \
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-amd64.exe \
-	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-386.exe
+	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-386.exe \
+	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-amd64.msi \
+	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-386.msi
 
 
 CMD ["/bin/sh","-c","sleep 18000"]
