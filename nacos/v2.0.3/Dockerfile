@@ -4,7 +4,7 @@
 FROM busybox:latest
 
 WORKDIR /download
-RUN wget https://github.com/alibaba/nacos/releases/download/2.0.3/nacos-server-2.0.3.tar.gz
+RUN wget https://github.com/alibaba/nacos/releases/download/2.0.3/nacos-server-2.0.2.tar.gz
 
 
 CMD ["/bin/sh","-c","sleep 18000"]
