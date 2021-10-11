@@ -25,7 +25,8 @@ RUN wget https://github.com/prometheus/prometheus/releases/download/v2.19.3/prom
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.8.3/wmi_exporter-0.8.3-386.msi \
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.8.3/wmi_exporter-0.8.3-amd64.msi \
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.5.0/wmi_exporter-0.5.0-386.msi \
-	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.5.0/wmi_exporter-0.5.0-amd64.msi
+	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.5.0/wmi_exporter-0.5.0-amd64.msi \
+	&& wget https://github.com/prometheus-community/ipmi_exporter/releases/download/v1.4.0/ipmi_exporter-1.4.0.linux-amd64.tar.gz
 
 
 CMD ["/bin/sh","-c","sleep 18000"]
