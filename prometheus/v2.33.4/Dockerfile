@@ -13,7 +13,7 @@ RUN wget https://github.com/prometheus/prometheus/releases/download/v2.33.4/prom
 	&& wget https://github.com/prometheus/mysqld_exporter/releases/download/v0.14.0/mysqld_exporter-0.14.0.linux-amd64.tar.gz \
 	&& wget https://github.com/prometheus/snmp_exporter/releases/download/v0.20.0/snmp_exporter-0.20.0.linux-amd64.tar.gz \
 	&& wget https://github.com/prometheus-community/bind_exporter/releases/download/v0.5.0/bind_exporter-0.5.0.linux-amd64.tar.gz \	
-	&& wget https://github.com/prometheus-community/ipmi_exporter/releases/download/v1.5.1/ipmi_exporter-1.5.1.linux-amd64.tar.gz
+	&& wget https://github.com/prometheus-community/ipmi_exporter/releases/download/v1.5.1/ipmi_exporter-1.5.1.linux-amd64.tar.gz \
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.18.1/windows_exporter-0.18.1-386.msi \
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.18.1/windows_exporter-0.18.1-amd64.msi \
 	&& wget https://github.com/prometheus-community/windows_exporter/releases/download/v0.18.1/windows_exporter-0.18.1-386.exe \
