@@ -23,7 +23,7 @@ RUN wget https://github.com/prometheus/prometheus/releases/download/v2.33.4/prom
 	&& wget https://dl.grafana.com/enterprise/release/grafana-enterprise-8.4.3.linux-amd64.tar.gz \
 	&& wget https://github.com/google/cadvisor/releases/download/v0.39.3/cadvisor \
 	&& wget https://github.com/oliver006/redis_exporter/releases/download/v1.36.0/redis_exporter-v1.36.0.linux-amd64.tar.gz \
-	&& wget https://github.com/nginxinc/nginx-prometheus-exporter/releases/download/v0.10.0/nginx-prometheus-exporter_0.10.0_linux_amd64.tar.gz \
+	&& wget https://github.com/nginxinc/nginx-prometheus-exporter/releases/download/v0.10.0/nginx-prometheus-exporter_0.10.0_linux_amd64.tar.gz
 
 
 
